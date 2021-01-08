@@ -1,4 +1,6 @@
-# inspireme-vue
+# InspireMe frontend
+
+Frontend application to the InspireMe API.
 
 ## Project setup
 ```
@@ -22,3 +24,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## Credit
+Created by Tim Millard

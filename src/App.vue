@@ -56,7 +56,7 @@ export default {
         return
       } 
       // this.$buefy.notification.open('Clicked')
-      axios.post('http://localhost:8080/', this.form)
+      axios.post(process.env.VUE_APP_INSPIREME_API_URL, this.form)
         .then(res => {
           console.log(this)
           this.imageUrl = res.data.imageUrl

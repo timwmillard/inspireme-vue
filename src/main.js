@@ -3,6 +3,8 @@ import App from './App.vue'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
 
+// require('./assets/css/main.scss');
+
 Vue.config.productionTip = false
 
 Vue.use(Buefy)
